@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<body class="text-white">
+    
+    <header>    
+        <nav class="w-screen p-3 flex justify-between items-center bg-gradient-to-t from-[#35083f] to-[#18041d]">
+            <div class="flex items-center w-full ml-2 mr-10">
+                <img src="assets/images/logo.png" width="60px" alt="Pulsar Framework">
+                <select class="ml-3 font-space-grotesk text-xl font-semibold rounded-full pl-3 pr-3 pt-1 pb-1 bg-gradient-to-b from-[#f59831] to-[#ea64d9]">
+                    <option value="3.0">v3.0</option>
+                    <option value="2.0">v2.0</option>
+                    <option value="1.0">v1.0</option>
+                </select>
+                <button class="ml-3 w-full text-lg font-space-grotesk bg-white text-gray-500 flex items-center justify-start pl-3 pr-3 pt-1 pb-1 rounded-full"><i class="fa-search text-xl mr-3"></i>Buscar...</button>
+            </div>
+    
+            <div class="flex justify-between items-center">
+                <ul class="flex font-space-grotesk">
+                    <li class="font-semibold mr-3 ml-3"><a class="text-lg" href="#">Docs</a></li>
+                    <li class="font-semibold mr-3 ml-3"><a class="text-lg" href="#">Components</a></li>
+                    <li class="font-semibold mr-3 ml-3"><a class="text-lg" href="#">Blog</a></li>
+                    <li class="font-semibold mr-3 ml-3"><a class="text-lg" href="#">Showcase</a></li>
+                </ul>
+
+                <div class="flex items-center justify-evenly ml-5 mr-5">
+                    <a href="#"><i class="fa-solid fa-github text-4xl text-gray-500"></i></a>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="flex items-center justify-evenly w-screen bg-cover bg-center bg-no-repeat before:content-[''] before:absolute before:w-[100px] before:h-[100px] before:bg-gradient-to-br before:from-[rgba(245,154,49,0.21)] before:to-[rgba(255,54,228,0.28)] before:rounded-md before:left-[44.3%] before:z-10 before:top-[74%] before:bg-transparent before:backdrop-blur-sm before:animate-move-up-down-alter after:content-[''] after:absolute after:w-[65px] after:h-[65px] after:bg-gradient-to-br after:from-[rgba(245,152,49,0.3)] after:to-[rgba(255,54,228,0.31)] after:rounded-md after:left-[53%] after:z-10 after:top-[68%] after:bg-transparent after:backdrop-blur-sm after:animate-move-up-down" style="background-image: linear-gradient(to top, rgba(53, 8, 63, 0.5), rgba(0,0,0,0.5)), url(assets/images/background.jpeg); height: calc(100vh - 73.3px);">
+                <article class="w-1/2 p-5 rounded-3xl bg-transparent backdrop-blur-lg flex flex-col justify-evenly items-center shadow-2xl shadow-black" style="background-image: linear-gradient(120deg, rgba(245, 152, 49, 0.3), rgba(234,100,217, 0.3));">
+                    <h2 class="mb-3 mt-3 text-center font-space-grotesk font-bold text-5xl" style="text-shadow: 0 0 5px black;">El framework más versátil para tus proyectos web y aplicaciones.</h2>
+                    <p class="mb-3 p-3 text-gray-400 text-center font-space-grotesk font-medium text-base">Inspirado en la energía y el dinamismo de las estrellas pulsar, Pulsar fusiona potencia y simplicidad para crear experiencias digitales impactantes.</p>
+                    <button class="mb-3 p-2 pl-7 pr-7 bg-white rounded-xl font-bold text-violet-700">Get Started</button>
+                    <code class="font-medium mt-2 flex items-center justify-evenly p-3 rounded-lg bg-black"><i class="fa-solid fa-greater-than mr-3"></i>npm install -D pulsar<i class="fa-regular fa-copy ml-3"></i></code>
+                </article>
+                <article>
+                    <img src="assets/images/logo.png" width="450px" style="filter: drop-shadow(0 15px 100rem #000)">
+                </article>
+        </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/340d67c615.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
